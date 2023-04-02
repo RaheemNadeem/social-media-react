@@ -1,0 +1,54 @@
+.login {
+  height: 100vh;
+  background-color: rgb(205, 185, 177);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .card {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    min-height: 600px;
+    width: 50%;
+    overflow: hidden;
+
+    .left {
+      flex: 1;
+      background: linear-gradient(
+          rgba(205, 185, 177, 0.437),
+          rgba(0, 0, 0, 0.273)
+        ),
+        url("https://images.pexels.com/photos/6373309/pexels-photo-6373309.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+          center;
+      background-size: cover;
+      padding: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+
+      h1 {
+        font-size: 100px;
+        line-height: 100px;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      span {
+        font-size: 14px;
+      }
+      button {
+        padding: 10px;
+        width: 50%;
+        cursor: pointer;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+      }
+    }
+
+    .right {
+      flex: 1;
+    }
+  }
+}
